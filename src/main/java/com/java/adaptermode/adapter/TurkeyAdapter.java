@@ -3,6 +3,8 @@ package com.java.adaptermode.adapter;
 import com.java.adaptermode.duck.Duck;
 import com.java.adaptermode.turkey.Turkey;
 
+import java.util.ArrayList;
+
 /**
  * @author yongzh
  * @version 1.0
@@ -12,7 +14,6 @@ import com.java.adaptermode.turkey.Turkey;
  */
 public class TurkeyAdapter implements Duck {
     private Turkey turkey;
-
     public TurkeyAdapter(Turkey turkey) {
         this.turkey = turkey;
     }
